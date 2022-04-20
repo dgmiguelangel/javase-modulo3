@@ -16,7 +16,6 @@ public class App {
 		Persona p;
 		String nombre, apellido;
 		
-		Documento documento;
 		String tipoDocumento;		
 		int numeroDocumento;
 		
