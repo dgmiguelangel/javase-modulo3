@@ -10,11 +10,11 @@ public class Persona {
 	private Documento documento;
 	private LocalDate fechaNacimiento;
 	
-	Persona() {
+	public Persona() {
 		super();
 	}
 
-	Persona(String nombre, String apellido, Documento documento, LocalDate fechaNacimiento) {
+	public Persona(String nombre, String apellido, Documento documento, LocalDate fechaNacimiento) {
 		super();
 		this.nombre = nombre;
 		this.apellido = apellido;

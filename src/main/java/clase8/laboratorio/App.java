@@ -19,8 +19,7 @@ public class App {
 		String tipoDocumento;		
 		int numeroDocumento;
 		
-		LocalDate fechaNacimiento;
-		
+		LocalDate fechaNacimiento;		
 		
 		System.out.println("Ingrese cantidad de personas");
 		cp = sc.nextByte();		
