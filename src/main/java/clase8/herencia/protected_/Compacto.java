@@ -2,22 +2,22 @@ package clase8.herencia.protected_;
 
 import java.time.LocalDate;
 
-public class Compato extends Auto {
+public class Compacto extends Auto {
 	
 	private int puestos;
 
-	public Compato() {
+	public Compacto() {
 		super();
 	}
 
-	public Compato(String color, String marca, String patente, boolean encendido, int puestos) {
+	public Compacto(String color, String marca, String patente, boolean encendido, int puestos) {
 		super(color, marca, patente, encendido);
 		this.puestos = puestos;
 	}
 	
 	
 
-	public Compato(String color, String marca, String patente, boolean encendido, LocalDate fechaFabricacion,
+	public Compacto(String color, String marca, String patente, boolean encendido, LocalDate fechaFabricacion,
 			int puestos) {
 		super(color, marca, patente, encendido, fechaFabricacion);
 		this.puestos = puestos;

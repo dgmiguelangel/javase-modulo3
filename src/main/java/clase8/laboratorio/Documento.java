@@ -1,6 +1,6 @@
 package clase8.laboratorio;
 
-public class Documento {
+public final class Documento {
 	
 	private String tipoDocumento;
 	private int numeroDocumento;
@@ -10,6 +10,12 @@ public class Documento {
 		super();
 		this.tipoDocumento = tipoDocumento;
 		this.numeroDocumento = numeroDocumento;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Documento [tipoDocumento=" + tipoDocumento + ", numeroDocumento=" + numeroDocumento + "]";
 	}
 
 
